@@ -1,0 +1,39 @@
+Note 1 Error from Cypress :- 
+The following error originated from your application code, not from Cypress.
+> Script error.
+
+Cypress detected that an uncaught error was thrown from a cross origin script.
+
+We cannot provide you the stack trace, line number, or file where this error occurred.
+
+Check your Developer Tools Console for the actual error - it should be printed there.
+
+It's possible to enable debugging these scripts by adding the crossorigin attribute and setting a CORS header.
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the uncaught:exception event.Learn moreLearn more
+
+
+Note 2 To Install the Xpath Plugin :- 
+	npm install -D cypress-xpath
+	require('cypress-xpath'); 
+
+
+Note 3 Please Run task.js 6 to 8 time Get the Proper Data & Assert all the Assertion Most of the time i got below Response which is not exact.
+Vitamin C & Zinc
+T Boost
+
+Note 4 prerequisites
+
+1. Install Node.js
+2. Along with that you Got npm
+3. Install Vs Code
+4. Install cypress
+5. Set up you project (npm init, npm install cypress --save-dev, npx cypress open)
+6. open Cypress 
+7. Run Test Cases 
+
+
+
+
